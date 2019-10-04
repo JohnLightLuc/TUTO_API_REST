@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django_admin_generator',
     'rest_framework',
     'pools',
+    'django_seed',
 ]
 
 MIDDLEWARE = [
