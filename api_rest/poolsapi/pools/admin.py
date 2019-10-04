@@ -11,15 +11,7 @@ class PollAdmin(admin.ModelAdmin):
 
     list_display = ('id', 'question', 'create_by', 'pub_date')
     list_filter = (
-        'create_by',
-        'pub_date',
-        'id',
-        'question',
-        'create_by',
-        'pub_date',
-    )
-
-
+        'crea
 class ChoiceAdmin(admin.ModelAdmin):
 
     list_display = ('id', 'pool', 'Choice_text')
